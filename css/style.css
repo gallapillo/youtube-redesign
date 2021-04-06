@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    padding: 20px 75px 20px 32px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 59px;
+}
+.menu-button {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: #1F2022;
+    display: block;
+    border-radius: 20px;
+}
+.input-group{
+    color: #EBEBEB;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 17px;
+    align-items: center;
+    max-width: 830px;
+    width: 50%;
+    margin-right: 505px;
+
+}
+.input-search{
+    background-color: transparent;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 713px;
+    padding-left: 23px;
+}
+.button-search{
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon-search{
+    fill: #000000;
+}
+/**/
+.icon-header{
+    cursor: pointer;
+}
+.icon-header:hover{
+    opacity: 0.8;
+}
+.phone{
+    margin-right: 45px;
+}
+.apps{
+    margin-right: 45px;
+}
+.user-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 45px;
+}
+/**/
